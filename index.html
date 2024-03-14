@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Frontend</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+
+    <header class="header d-flex align-items-center gap-3 container">
+        <div class="logo">
+            <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="ADL">
+            <span class="logo__brand">Blog Frontend</span>
+        </div>
+        <div class="header__container-list">
+            <ul class="lista-nav">
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./">Home</a>
+                </li>
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./login.html">Login</a>
+                </li>
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./registro.html">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <hr>
+    <main class="main-home">
+        <section class="novedades">
+            <h2 class="novedades__titulo">Novedades</h2>
+            <div class="novedades__contenedor-posts">
+                <div class="novedades__container-post-actual">
+                    <div class="card">
+                        <div class="card__header">
+                            <a href="./post_bootstrap.html">
+                                <img class="card__imagen" src="./assets/img/posts/bootstrap.png" alt="Post boostrap">
+                            </a>
+
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Modifica el tema de Bootstrap con variables CSS</h3>
+                            <div class="logo">
+                                <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="ADL">
+                                <span class="logo__brand"><strong>Desafío Latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="novedades__container-posts-anteriores">
+                    <div class="card card--horizontal">
+                        <div class="card__header">
+                            <img class="card__imagen" src="./assets/img/posts/Herencia-JS.png" alt="Herencia">
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Herencia en JavaScript</h3>
+                            <div class="logo">
+                                <img class="logo__imagen logo__imagen--small" src="./assets/img/logos/adl.png"
+                                    alt="ADL">
+                                <span class="logo__brand"><strong>Desafío Latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card--horizontal">
+                        <div class="card__header">
+                            <img class="card__imagen" src="./assets/img/posts/Etiquetas-semяnticas-HTML.png"
+                                alt="HTML Semántico">
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Etiquetas semánticas</h3>
+                            <div class="logo">
+                                <img class="logo__imagen logo__imagen--small" src="./assets/img/logos/adl.png"
+                                    alt="ADL">
+                                <span class="logo__brand"><strong>Desafío Latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card--horizontal">
+                        <div class="card__header">
+                            <img class="card__imagen" src="./assets/img/posts/reactComponents.png" alt="Post boostrap">
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Componentes React</h3>
+                            <div class="logo">
+                                <img class="logo__imagen logo__imagen--small" src="./assets/img/logos/adl.png"
+                                    alt="ADL">
+                                <span class="logo__brand"><strong>Desafío latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- inicio populares -->
+        <section class="post container">
+            <div class="row py-2 g-5 mx-0">
+                <div class="col-12 col-md-7">
+                    <section id="populares">
+                        <h2 class="m-4">Populares</h2>
+                        <div class="row g-5">
+                            <div class="col-12 col-md-6">
+                                <article class="post">
+                                    <div class="post__header">
+                                        <img class="post__imagen" src="./assets/img/posts/vue-components.png" alt="">
+                                    </div>
+                                    <div class="post__body">
+                                        <small class="post__fecha post__fecha--tiny">08 Marzo 2024</small>
+                                        <h3 class="post__titulo post__titulo--tiny">Componentes Vue</h3>
+
+                                        <div class="tag">
+                                            <img class="tag__img tag__img--tiny" src="./assets/img/logos/adl.png"
+                                                alt="">
+                                            <p class="tag__titulo tag__titulo--tiny">Desafío Latam</p>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <article class="post">
+                                    <div class="post__header">
+                                        <img class="post__imagen" src="./assets/img/posts/api-js.png" alt="">
+                                    </div>
+                                    <div class="post__body">
+                                        <small class="post__fecha post__fecha--tiny">08 Marzo 2024</small>
+                                        <h3 class="post__titulo post__titulo--tiny">Consumo de API con JavaScript
+                                        </h3>
+
+                                        <div class="tag">
+                                            <img class="tag__img tag__img--tiny" src="./assets/img/logos/adl.png"
+                                                alt="">
+                                            <p class="tag__titulo tag__titulo--tiny">Desafío Latam</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <article class="post">
+                                    <div class="post__header">
+                                        <img class="post__imagen" src="./assets/img/posts/sass.jpg" alt="">
+                                    </div>
+                                    <div class="post__body">
+                                        <small class="post__fecha post__fecha--tiny">08 Marzo 2024</small>
+                                        <h3 class="post__titulo post__titulo--tiny">CSS reutilizable con Sass
+                                        </h3>
+
+                                        <div class="tag">
+                                            <img class="tag__img tag__img--tiny" src="./assets/img/logos/adl.png"
+                                                alt="">
+                                            <p class="tag__titulo tag__titulo--tiny">Desafío Latam</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <article class="post">
+                                    <div class="post__header">
+                                        <img class="post__imagen" src="./assets/img/posts/bootstrap.png" alt="">
+                                    </div>
+                                    <div class="post__body">
+                                        <small class="post__fecha post__fecha--tiny">08 Marzo 2024</small>
+                                        <h3 class="post__titulo post__titulo--tiny">Componentes Bootstrap
+                                        </h3>
+
+                                        <div class="tag">
+                                            <img class="tag__img tag__img--tiny" src="./assets/img/logos/adl.png"
+                                                alt="">
+                                            <p class="tag__titulo tag__titulo--tiny">Desafío Latam</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-md-5">
+                    <section id="categorias">
+                        <div class="categorias">
+                            <h2 class="m-4">Categorías</h2>
+                            <div class="box box-html">
+                                <img class="box-img" src="./assets/img/logos/html.png" alt="" />
+                                <h3 class="box-title">HTML</h3>
+                            </div>
+                            <div class="box box-css">
+                                <img class="box-img" src="./assets/img/logos/css.png" alt="" />
+                                <h3 class="box-title">CSS</h3>
+                            </div>
+                            <div class="box box-js">
+                                <img class="box-img" src="./assets/img/logos/js.png" alt="" />
+                                <h3 class="box-title">JavaScript</h3>
+                            </div>
+                            <div class="box box-react">
+                                <img class="box-img" src="./assets/img/logos/react.png" alt="" />
+                                <h3 class="box-title">React</h3>
+                            </div>
+                            <div class="box box-vue">
+                                <img class="box-img" src="./assets/img/logos/vue.png" alt="" />
+                                <h3 class="box-title">Vue</h3>
+                            </div>
+                            <div class="box box-bootstrap">
+                                <img class="box-img" src="./assets/img/logos/bootstrap-logo.png" alt="" />
+                                <h3 class="box-title">Bootstrap</h3>
+                            </div>
+                            <div class="box ver-mas">
+                                <p>Ver todas las categorías ></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <header class="header d-flex align-items-center gap-3 container">
+        <div class="logo">
+            <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="ADL">
+            <span class="logo__brand">Blog Frontend</span>
+        </div>
+        <div class="header__container-list">
+            <ul class="lista-nav">
+                <li class="lista-nav__item">
+                    <span>Desafío Latam - 2024</span>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+</body>
+
+</html>

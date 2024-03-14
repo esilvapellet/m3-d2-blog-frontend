@@ -1,0 +1,36 @@
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px 15px;
+
+    &__imagen {
+        width: 55px;
+        height: 55px;
+        border-radius: 10px;
+
+        &--small {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+
+    &__brand {
+        margin-bottom: 0;
+        font-size: $fs4;
+        font-weight: $font-bold;
+
+        &--small {
+            font-size: $fs6;
+        }
+    }
+
+    &__fecha {
+        padding: 0 $sp2;
+    }
+}

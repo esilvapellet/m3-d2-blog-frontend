@@ -1,0 +1,22 @@
+.lista-nav {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+
+    &__link {
+        font-family: $lato-font;
+        text-decoration: none;
+        color: $primary;
+        font-size: $fs6;
+        margin-bottom: 0;
+        font-weight: $font-thin;
+        text-transform: $font-upper;
+
+        &:hover {
+            font-weight: $font-medium;
+            border-top: 2px solid $primary;
+            border-bottom: 2px solid $primary;
+            font-size: $fs6;
+        }
+    }
+}
